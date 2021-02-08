@@ -40,6 +40,7 @@ font-size: 45px;
 .row {
 width: 100%;
 margin-top: 10px;
+margin-inline: auto;
 }
 
 section {
