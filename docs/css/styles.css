@@ -8,6 +8,8 @@ body {
 background-color:#1abc9c;
 }
 
+/** HEADER **/
+
 #header-nav {
 background-color: #1e83709c;
 border: 0;
@@ -19,10 +21,6 @@ color: white;
     font-size: 1.8em;
     color: #92CC09;
 
-}
-
-.logo-img {
-    margin-left: 10px;
 }
 
 #nav-list a:hover {
@@ -86,6 +84,33 @@ height: 200px;
 }
 
 
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+    /* Header */
+  #logo-img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
 
 /********** Desktop View **********/
 @media (min-width: 992px) {
