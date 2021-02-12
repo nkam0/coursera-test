@@ -29,12 +29,13 @@ color: white;
     font-size: 1.2em;
 }
 
-h1 {
-text-align: center;
-color: white;
-margin-bottom: 15px;
-font-size: 45px;
-}
+
+
+.container {
+    margin-top: 10vh;
+    font-size: 3vw;
+  }
+
 
 /* Simple Responsive Framework. */
 .row {
@@ -67,7 +68,7 @@ p:hover {
 background-color: rgba(181, 238, 190, 0.678);
 }
 
-p {
+.row p {
 border: 1px;
 border-radius: 25px;
 background-color: #ffffff;
