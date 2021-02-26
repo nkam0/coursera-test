@@ -32,6 +32,11 @@ border: 0;
 }
 
 
+/* HOMEPAGE */
+
+#main-content{
+    padding: 0;
+}
 
 #home-jbt {
     padding: 0;
@@ -41,12 +46,21 @@ border: 0;
     padding: 0;
 }
 
+/* HOME TILES*/
 
-/* Simple Responsive Framework. */
-.row {
+#home-tile{
+height: 150px;
 width: 100%;
-margin-top: 10px;
-margin-inline: auto;
+background-color: #ffffff;
+border-radius: 25px;
+position: relative; 
+overflow: hidden;
+margin-right: 10vw;
+margin-left: 10vw; 
+}
+
+#home-tiles:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 section {
