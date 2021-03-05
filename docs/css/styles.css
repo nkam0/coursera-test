@@ -66,6 +66,7 @@ border: 0;
 #veg-tile{
     background: url(../images/veg_tile.jpg) no-repeat;
     background-position: center;
+    background-size:cover;
 }
 
 #seed-tile{
@@ -103,16 +104,24 @@ color: #ffffff;
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 768px) {
    
 
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (max-width: 576 px) {
+    
+    #veg-tile{
+        height: 400px;
+    }
+    #home-tiles{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
