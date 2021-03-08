@@ -98,30 +98,36 @@ color: #ffffff;
     background-color: rgb(96, 96, 96);
 }
 
-/********** Large devices only **********/
+/********** Extra Large devices only **********/
 @media (min-width: 1200px) {
  
 }
 
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 992px) {
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
 
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
 }
 
 /********** Small devices only **********/
-@media (min-width: 576px) and (max-width: 768px) {
-   
-
+@media (min-width: 576px) and (max-width: 767px) {
+    
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 576 px) {
-    
-    #veg-tile{
-        height: 400px;
-    }
+@media (max-width: 575px) {
+
     #home-tiles{
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    #home-jbt{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
+
