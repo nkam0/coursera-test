@@ -41,10 +41,13 @@ border: 0;
 #home-jbt {
     padding: 0;
     margin-top: 30px;
+    
   }
 
-.jumbotron .container-fluid{
+.jumbotron .container{
     padding: 0;
+    height: 300px;
+    object-fit: cover;   
 }
 
 /* HOME TILES*/
@@ -94,14 +97,65 @@ opacity: 0.8;
 color: #ffffff;
 }
 
+
+/* FOOTER*/
+
 .panel-footer{
-    background-color: rgb(96, 96, 96);
+    background-color:rgb(34, 34, 34);
+    color: white;
+    margin-top: 30px;
+    padding-top: 30px;
 }
+
+.panel-footer .row{
+    margin-bottom: 20px;
+}
+
+#hours , #address {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.25em;
+}
+
+#footer-links > ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer-links a {
+    line-height: 2;
+    color: white;
+}
+
+#footer-links a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.panel-footer ul{
+    margin-bottom: 0;
+}
+
+
+
+.panel-footer hr{
+    border-color: white;
+}
+
+#copyright-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
 
 /********** Extra Large devices only **********/
 @media (min-width: 1200px) {
- 
+
 }
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -128,6 +182,8 @@ color: #ffffff;
     #home-jbt{
         margin-left: 0px;
         margin-right: 0px;
+        
     }
+    
 }
 
