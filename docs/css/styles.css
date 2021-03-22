@@ -105,6 +105,8 @@ color: #ffffff;
     color: white;
     margin-top: 30px;
     padding-top: 30px;
+    width: 100%;
+   
 }
 
 .panel-footer .row{
@@ -145,9 +147,6 @@ color: #ffffff;
 }
 
 #copyright-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 10px;
   }
 
